@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "CC",
+    "version": "0.0.1",
+    "description": "CC",
+    "browser_action": {
+        "default_title": "CC",
+        "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": [
+        "tabs",
+        "storage",
+        "webNavigation",
+        "webRequestBlocking",
+        "notifications",
+        "geolocation",
+    ]
+}
